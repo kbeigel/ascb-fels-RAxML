@@ -9,11 +9,13 @@ The ascb_RAxML_run.sh script uses the output files from btmartin721's ascbias.py
 for running RAxML 8.2.X with the ASC_GTRGAMMA model.
 
 The script can be run with the following command:
-> bash ascb_RAxML_run.sh input.phy
+'''
+bash ascb_RAxML_run.sh input.phy
+'''
 
 The user will be prompted to entered the following information for the run: 
-"Name for this run:" # specify a name for the run, which will be used to prepend the output files
-"How many threads would you like RAxML to use?" # specify parameter for number of threads to be used
-"How many maximum likelihood searches would you like RAxML to perform?" # specify parameter for number of maximum likelihood searches
-"How many bootstrap replicates would you like RAxML to perform?" # specify number of bootstraps
+>"Name for this run:" # specify a name for the run, which will be used to prepend the output files
+>"How many threads would you like RAxML to use?" # specify parameter for number of threads to be used
+>"How many maximum likelihood searches would you like RAxML to perform?" # specify parameter for number of maximum likelihood searches
+>"How many bootstrap replicates would you like RAxML to perform?" # specify number of bootstraps
 
