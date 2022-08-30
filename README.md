@@ -9,9 +9,9 @@ The ascb_RAxML_run.sh script uses the output files from btmartin721's ascbias.py
 for running RAxML 8.2.X with the ASC_GTRGAMMA model.
 
 The script can be run with the following command:
-'''
+```
 bash ascb_RAxML_run.sh input.phy
-'''
+```
 
 The user will be prompted to entered the following information for the run: 
 >"Name for this run:" # specify a name for the run, which will be used to prepend the output files
